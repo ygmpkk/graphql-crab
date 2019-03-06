@@ -1,5 +1,5 @@
 {
-  "name": "graphql-chain",
+  "name": "gql-chain",
   "version": "0.0.1",
   "description": "Humanized way to use chains operation for Graphql",
   "main": "dist/index.js",

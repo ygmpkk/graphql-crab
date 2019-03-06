@@ -7,13 +7,13 @@
 ES5
 
 ```javascript
-const gql = require("graphql-chain");
+const gql = require("gql-chain");
 ```
 
 ES6
 
 ```javascript
-import gql from "graphql-chain";
+import gql from "gql-chain";
 ```
 
 Browser
