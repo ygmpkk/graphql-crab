@@ -1,0 +1,17 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "targets": {
+        "node": 8,
+        "ie": "9",
+        "ios": "8",
+        "android": "4.4"
+      },
+      "modules": false
+    }],
+  ],
+  "plugins": [
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread",
+  ]
+}

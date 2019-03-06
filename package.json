@@ -1,0 +1,28 @@
+{
+  "name": "graphql-chain",
+  "version": "0.0.1",
+  "description": "Humanized way to use chains operation for Graphql",
+  "main": "dist/index.js",
+  "repository": "git@github.com:ygmpkk/graphql-chain.git",
+  "author": "Timothy <ygmpkk@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "LICENSE",
+    "README.md",
+    "yarn.lock"
+  ],
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel": "^6.23.0",
+    "jest": "^24.1.0",
+    "rollup": "^1.4.1",
+    "rollup-plugin-babel": "^4.3.2"
+  }
+}
