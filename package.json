@@ -1,9 +1,9 @@
 {
-  "name": "gql-chain",
-  "version": "0.0.1",
+  "name": "graphql-crab",
+  "version": "0.0.2",
   "description": "Humanized way to use chains operation for Graphql",
   "main": "dist/index.js",
-  "repository": "git@github.com:ygmpkk/graphql-chain.git",
+  "repository": "git@github.com:ygmpkk/graphql-crab.git",
   "author": "Timothy <ygmpkk@gmail.com>",
   "license": "MIT",
   "scripts": {

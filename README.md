@@ -7,19 +7,19 @@
 ES5
 
 ```javascript
-const gql = require("gql-chain");
+const gql = require("graphql-crab");
 ```
 
 ES6
 
 ```javascript
-import gql from "gql-chain";
+import gql from "graphql-crab";
 ```
 
 Browser
 
 ```javascript
-var gql = window.GraphqlChain;
+var gql = GraphqlCrab;
 ```
 
 ### Query
