@@ -1,6 +1,6 @@
 {
   "name": "graphql-crab",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Humanized way to use chains operation for Graphql",
   "main": "dist/index.js",
   "repository": "https://github.com/ygmpkk/graphql-crab",
