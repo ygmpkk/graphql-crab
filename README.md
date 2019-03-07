@@ -35,25 +35,28 @@ query($user: User, $page: Int, $perPage: Int) {
 }
 `
 
-const payload = query.user({name: "Tim"}).page(1).perPage(10)
-console.log(payload)
-// output
-// {
-//     "query": `query($user: User, $page: Int, $perPage: Int) {
-//       getUser(input: $user) {
-//         userId
-//         name
-//         age
-//       }
-//     }`,
-//     "variables": {
-//       "user": {
-//         "name": "Timothy",
-//       },
-//       "page": 1,
-//       "perPage": 10,
-//     },
-// }
+const payload = query.user({name: "Tim"}).page(1).perPage(10).toJSON()
+```
+
+payload
+
+```
+{
+    "query": `query($user: User, $page: Int, $perPage: Int) {
+      getUser(input: $user) {
+        userId
+        name
+        age
+      }
+    }`,
+    "variables": {
+      "user": {
+        "name": "Timothy",
+      },
+      "page": 1,
+      "perPage": 10,
+    },
+}
 ```
 
 ## License MIT
