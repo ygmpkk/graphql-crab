@@ -3,7 +3,8 @@
   "version": "0.0.3",
   "description": "Humanized way to use chains operation for Graphql",
   "main": "dist/index.js",
-  "repository": "git@github.com:ygmpkk/graphql-crab.git",
+  "repository": "https://github.com/ygmpkk/graphql-crab",
+  "homepage": "https://github.com/ygmpkk/graphql-crab",
   "author": "Timothy <ygmpkk@gmail.com>",
   "license": "MIT",
   "scripts": {
