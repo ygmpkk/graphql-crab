@@ -1,4 +1,5 @@
 .vscode
+dist/
 
 # Created by https://www.gitignore.io/api/macOS,node,typescript
 # Edit at https://www.gitignore.io/?templates=macOS,node,typescript
